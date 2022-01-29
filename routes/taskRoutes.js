@@ -6,8 +6,8 @@ router.get('/',(req,res)=>{
 router.get('/login',(req,res)=>{
     res.render('login')
 })
-router.get('*',(req,res)=>{
-    res.render("Error Page")
+router.get('/signup',(req,res)=>{
+    res.render('signup')
 })
 
 module.exports=router;
